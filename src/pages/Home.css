@@ -1,3 +1,102 @@
 *{
     margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    background-color: #F9F9F9;
+}
+#vila{
+    opacity: 70%;
+    position: relative;
+}
+.info-container{
+    position: absolute;
+    background: #69A391;
+    width: 621px;
+    height: 213px;
+    top: 391px;
+    padding: 0;
+    margin-bottom: -20%;
+    z-index: 1;
+    margin-left: 668px;
+    box-shadow: 0px 3px 6px #DBDBDB28;
+    opacity: 0.8;
+}
+.bombeiros,h2{
+    color: #FFFFFF;
+    text-align: left;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 12px;
+    width: 94px;
+    height: 15px;
+    margin-left: 55px;
+    margin-top: 48px;
+}
+.bombeiros{
+    font-weight: bold;
+    font-size: 28px;
+    width: 510px;
+    height: 70px;
+    margin-top: 48px;
+}
+#campo1{
+    position: absolute;
+    z-index: 1;
+    width: 166px;
+    height: 101px;
+    top: 643px;
+    left: 660px;
+}
+#campo2{
+
+    position: absolute;
+    z-index: 1;
+    width: 166px;
+    height: 101px;
+    top: 643px;
+    left: 840px;
+}
+#campo3{
+    position: absolute;
+    z-index: 1;
+    width: 166px;
+    height: 101px;
+    top: 643px;
+    left: 1020px;
+}
+#vidigueira{
+    position: absolute;
+    z-index: 1;
+    width: 166px;
+    height: 101px;
+    top: 643px;
+    left: 1200px;
+}
+#castelo{
+    position: absolute;
+    z-index: 1;
+    width: 166px;
+    height: 101px;
+    top: 643px;
+    left: 1380px;
+}
+.seta{
+    width: 100px;
+    height: 20px;
+    margin-left: 450px;
+}
+#esquerda{
+    margin-right: 10px;
+}
+
+@media(max-width: 900px){
+    .info-container{
+        margin-left: auto;
+        margin-right: auto;
+        left: 128px;
+        top: 156px;
+        
+    }
 }

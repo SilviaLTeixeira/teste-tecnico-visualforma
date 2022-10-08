@@ -18,21 +18,19 @@ export function NavBar() {
                     </div>
                 </nav>
             </section>
+                <section className= "bottom-section">
+                    <img id = "logo" src={CamadaImg} alt="camada" />
+                    <nav className="bottom-nav">
+                        <a href="#">Munícipio</a>
+                        <a href="#">Autarquia360</a>
+                        <a href="#">Atividade Municipal</a>
+                        <a href="#">Serviços Onlines</a>
+                        <a href="#">Contactos</a>
+                    </nav>
+                </section>
 
-            <section className= "bottom-section">
-                <img src={CamadaImg} alt="camada" />
-                <nav className="bottom-nav">
-                    <a href="#">Munícipio</a>
-                    <a href="#">Autarquia360</a>
-                    <a href="#">Atividade Municipal</a>
-                    <a href="#">Serviços Onlines</a>
-                    <a href="#">Contactos</a>
-                </nav>
-            </section>
-
-            <section>
                 <AiOutlineMenu className="mobile" color="#246970"/>
-            </section>
+                
         </>
     )
 }
