@@ -1,0 +1,36 @@
+.container_notices{
+    width: 342px;
+    height: 205px;
+    background-color: white;
+    margin: 0 auto; 
+}
+.notice_title{
+    font-size: 20px;
+    color: #3E3E40;
+    font-weight: normal;
+    padding-top: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.data{
+    padding-top: 24px;
+    padding-left: 32px;
+    font-size: 13px; 
+    color: #21878F;
+}
+.plantio{
+    width: 342px;
+    height: 205px;
+    position: relative;
+}
+.ver_mais{
+    color: #246970;
+    font-size: 14px;
+    padding-top: 48px;
+    padding-left: 32px;
+}
+.arrow{
+    display:flex;
+    margin-top: -16px;
+    margin-left: 112px;
+}
