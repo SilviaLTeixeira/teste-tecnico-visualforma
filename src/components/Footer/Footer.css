@@ -1,0 +1,95 @@
+.container-footer{
+    background-color: #246970;
+    width: 100%;
+    height: 1000px;
+    margin-top: 600px;
+}
+.contacts{
+    position: relative;
+    background-color: white;
+    width: 536px;
+    height: 393px;
+    top: -60px
+}
+#contatos{
+    margin-right: 90px;
+    padding-top: 60px;
+}
+
+h3{
+    font-size: 13px;
+    color: #FFFFFF;
+    display: inline-flex;
+}
+#municipio_h3{
+    margin-top: 40px;
+    margin-left: 240px;
+}
+#autarquia_h3,#atividade_h3,#subs_h3{
+    margin-left: 184px;
+}
+#mapa{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -150px;
+    z-index: 1;
+}
+.contacts{
+    margin-left: 710px;
+    margin-top: -50px;
+    
+}
+#contatos{
+    display: flex;
+}
+#mensagem_1{
+    margin-left: 234px;
+    margin-top: 40px;
+
+}
+#mensagem_2{
+    margin-left: 100px;
+}
+#mensagem_3{
+    margin-left: 130px ;
+}
+.email{
+    font-size: 10px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 148px;
+    line-height: 24px;
+    width: 270px;
+    border-bottom: 2px solid #FFFFFF;
+    
+    
+}
+#politica,#compartilhar{
+    margin-left: 1138px;
+}
+#politica{
+    margin-top: 10px;
+}
+#compartilhar{
+    margin-top: 25px;
+}
+.arrow_footer{
+    color: white;
+}
+#direitos{
+    margin-left: 210px;
+    margin-top: 40px;
+}
+#privacidade{
+    margin-left: 120px;
+}
+#logo_footer{
+    margin-left: 340px;
+}
+#logo_w3{
+    margin-left: 74px;
+}
+hr{
+    width: 85%;
+    margin-top: 78px;
+}

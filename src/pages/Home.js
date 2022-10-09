@@ -15,6 +15,7 @@ import Categoria from '../components/Categoria';
 import CategoriaClara from '../assets/Categoria_Clara.png';
 import CategoriaMedia from '../assets/Categoria_Media.png';
 import CategoriaEscura from '../assets/Categoria_Escura.png';
+import Footer from '../components/Footer';
 
 function Home() {
   return (
@@ -47,6 +48,7 @@ function Home() {
       ><Categoria 
         image= {CategoriaEscura}></Categoria><Categoria 
         image= {CategoriaEscura}></Categoria></Notices>
+      <Footer></Footer>
     </>
   );
 }
