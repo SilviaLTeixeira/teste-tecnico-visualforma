@@ -1,6 +1,16 @@
-.second_title{
+.second_title1,.second_title2{
     font-weight: normal;
-    color:#64AE87;
     font-size:16px;
     text-transform: uppercase;
+    
+}
+.second_title1{
+    color:#64AE87;
+    margin-left: 1245px;
+    margin-bottom: 4%;
+
+}
+.second_title2{
+    color: #000000;
+    margin-left: 950px;
 }

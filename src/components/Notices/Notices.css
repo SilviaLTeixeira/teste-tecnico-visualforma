@@ -1,8 +1,18 @@
-.container_notices{
+
+.container_notices1,.container_notices2,.container_notices3{
     width: 342px;
     height: 205px;
     background-color: white;
-    margin: 0 auto; 
+    
+}
+.container_notices1{
+    margin-left: 240px;
+}
+.container_notices2{
+    margin-right: 560px;
+}
+.container_notices3{
+    margin-left: 1000px;
 }
 .notice_title{
     font-size: 20px;
@@ -12,23 +22,45 @@
     padding-left: 32px;
     padding-right: 32px;
 }
-.data{
+.data1,.data2,.data3{
     padding-top: 24px;
     padding-left: 32px;
     font-size: 13px; 
+   
+}
+.data1,.ver1{
     color: #21878F;
 }
-.plantio{
+.data2,.ver2{
+    color:#64AE87;
+}
+.data3,.ver3{
+    color:#69A391;
+}
+#plantio{
     width: 342px;
     height: 205px;
     position: relative;
 }
-.ver_mais{
-    color: #246970;
+.plantio1{
+    margin-left: 240px;
+    margin-top: 10px;
+}
+.plantio2,.plantio3{
+    margin-top: -415px;
+}
+.plantio2{
+    margin-left: 620px;
+}
+.plantio3{
+    margin-left: 1000px;
+}
+.ver1,.ver2,.ver3{
     font-size: 14px;
     padding-top: 48px;
     padding-left: 32px;
 }
+
 .arrow{
     display:flex;
     margin-top: -16px;

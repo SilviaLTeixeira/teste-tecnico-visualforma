@@ -91,6 +91,78 @@ h2{
     margin-right: 10px;
 }
 
+.container_texto{
+    background-color: #21878F;
+    width: 342px;
+    height: 78px;
+    margin-right: 2%;
+    margin-top: -890px;
+}
+.text_atividades{
+    font-size: 24px;
+    color: white;
+    margin-left: 10%;
+    padding-top: 5%;
+}
+.container_atividades{
+    width: 342px;
+    height: 310px;
+    background-color: white;
+    margin-right: 2%;
+    margin-top: -4%;
+}
+h2{
+    color:#3E3E40;
+    font-size: 16px;
+    text-transform:none;
+    font-weight: 500;
+}
+#one,#two,#three,#dezenove_1,#dezenove_2,#dezenove_3{
+    color:#3E3E40;
+    font-size: 12px;
+    text-transform:none;
+    font-weight: 500;
+}
+#aula1{
+    padding-top: 10%;
+    margin-left: 10%;
+
+}
+#one,#two,#three{
+    margin-left: 2%;
+}
+#one,#three{
+    margin-top: 9%;
+}
+
+#calendario_1,#calendario_2,#calendario_3{
+    padding-left: 10%;
+}
+#hora_1,#hora_2,#hora_3{
+    margin-left: 40%;
+}
+#hr_1,#hr_2{
+    margin-top: 5%;
+}
+#conto{
+    margin-top: 5%;
+    padding-bottom: 10%;
+    margin-left: 10%;
+}
+#aula2{
+    margin-top: 5%;
+    margin-left: 10%;
+}
+#trilha{
+    width: 993px;
+    height: 445px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+#container_foto{
+    margin-left: 20%;
+    margin-top: -10%;
+}
 @media(max-width: 900px){
     .info-container{
         margin-left: auto;

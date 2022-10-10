@@ -6,14 +6,14 @@ import './Notices.css';
 const Notices = (props) => {
     return (  
         <div>
-        <div className='plantio'>
+        <div className={props.classNamePlantio}>
             {props.children}
-            <img src={Plantio} alt="plantio" />
+            <img id = "plantio" src={Plantio} alt="plantio" />
         </div>
-        <div className='container_notices'>
-            <h1 className='data'>27 - 07 - 2020</h1>
+        <div className={props.classNameNotices}>
+            <h1 className={props.classNameData}>27 - 07 - 2020</h1>
             <h1 className='notice_title'>{props.noticetitle}</h1>
-            <h1 className='ver_mais'>Ver mais</h1>
+            <h1 className={props.classNameVer}>Ver mais</h1>
             <BsArrowRightShort className='arrow'></BsArrowRightShort>
         </div>
         </div>

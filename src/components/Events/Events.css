@@ -1,0 +1,78 @@
+.container_events1,.container_events2,.container_events3,.container_events4{
+    width: 125px;
+    height: 156px;
+    
+
+}
+.container_events1{
+    background-color:#246970;
+    margin-left: 15.5%;
+    margin-top: 2%;
+}
+.container_events2{
+    background-color: #69A391;
+    margin-top: -155px;
+}
+.container_events3{
+    background-color: #FDAC1D;
+    margin-top: 2%;
+    margin-left: 15.5%;
+    
+}
+.container_events4{
+    background-color: #21878F;
+    margin-top: -155px;
+}
+#date_events{
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.container_text,.container_text2,.container_text3,.container_text4{
+    width: 230px;
+    height: 156px;
+    background-color: white;
+    
+}
+.container_text,.container_text3{
+    margin-left: 23.8%;
+    margin-top: -155px;
+}
+.container_text2,.container_text4{
+    margin-left: 54.2%;
+    margin-top: -155.5px;
+}
+.text_events{
+    color: #3E3E40;
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-top: 15%;
+}
+.titulo_categoria1,.titulo_categoria2,.titulo_categoria3,.titulo_categoria4{
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-left: 30%;
+    
+}
+.titulo_categoria1{
+    color: #246970;
+}
+.titulo_categoria2{
+    color: #69A391;
+}
+.titulo_categoria3{
+     color: #FDAC1D;
+}
+.titulo_categoria4{
+    color: #21878F;
+}
+#local,#hora{
+    margin-left: 60px;
+    margin-top: 7%;
+}
+.local,.hora{
+    color:#3E3E40;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 2%;
+}
