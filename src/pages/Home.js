@@ -24,6 +24,16 @@ import Calendar from '../assets/calendar.png';
 import Hora from '../assets/Hora.png';
 import Trilha from '../assets/trilha.png';
 import ContainerFoto from '../assets/container_foto.png';
+import SetaDireitaTrilha from '../assets/seta_direita_trilha.png';
+import SetaEsquerdaTrilha from '../assets/seta_esquerda_trilha.png';
+import Line from '../assets/Line.png';
+import Documents from '../components/Documents';
+import Ata from '../assets/Ata.png';
+import Editais from '../assets/Edital.png';
+import Formularios from '../assets/Formulario.png';
+import Documentos from '../assets/Documento.png';
+import Inscricoes from '../assets/Inscricao.png';
+import Link from '../assets/Link.png';
 
 function Home() {
   return (
@@ -32,7 +42,7 @@ function Home() {
     <img id = "vila" src={VidigueiraVila} alt="vila" />
     <div className='info-container'>
         <h1 className='bombeiros'>Apoio extraordinário à Associação Humanitária dos Bombeiros</h1>
-        <h2>Saber Mais</h2>
+        <h2 id="saber_mais">Saber Mais</h2>
     </div>
        <div className='seta'>
         <img id = "esquerda" src={SetaEsquerda} alt="seta_esquerda"/>
@@ -116,6 +126,11 @@ function Home() {
           ></Events>
           <img id= "trilha" src={Trilha} alt= "trilha"/>
           <img id="container_foto" src={ContainerFoto} alt="container_foto"/>
+          <div className='carrousel_trilha'>
+            <img  id = "seta_esquerda" src={SetaEsquerdaTrilha} alt="seta_esquerda"/>
+            <img  id = "linha" src={Line} alt="linha"/>
+            <img  id = "seta_direita" src={SetaDireitaTrilha} alt="seta_direita"/>
+          </div>
           <div className='container_texto'>
             <h1 className='text_atividades'>Atividades da semana</h1>
           </div>
@@ -138,6 +153,44 @@ function Home() {
               <img id="hora_3" src={Hora} alt="horario"/>
               <h3 id= "dezenove_3">19h30</h3>
           </div>
+          <Title 
+         title="Documento Institucionais"
+         className="documento_institucionais"
+         ></Title>
+         <Documents
+         classNameDocuments="container_documents1"
+         ImageDocuments={Ata}
+         titleDocuments="atas"
+         ></Documents>
+         <Documents
+         classNameDocuments="container_documents2"
+         ImageDocuments={Editais}
+         titleDocuments="editais"
+         ></Documents>
+          <Documents
+         classNameDocuments="container_documents3"
+         ImageDocuments={Formularios}
+         titleDocuments="formulários"
+         ></Documents>
+         <Documents
+         classNameDocuments="container_documents4"
+         ImageDocuments={Documentos}
+         titleDocuments="documentos"
+         ></Documents>
+         <Documents
+         classNameDocuments="container_documents5"
+         ImageDocuments={Inscricoes}
+         titleDocuments="inscrições"
+         ></Documents>
+         <Title 
+         title="Links Úteis"
+         className="links_uteis"
+         ></Title>
+         <img id = "link_util_1" src={Link} alt="link_util"/>
+         <img id = "link_util_2" src={Link} alt="link_util"/>
+         <img id = "link_util_3" src={Link} alt="link_util"/>
+         <img id = "link_util_4" src={Link} alt="link_util"/>
+         <img id = "link_util_5" src={Link} alt="link_util"/>
       <Footer></Footer>
     </>
   );
