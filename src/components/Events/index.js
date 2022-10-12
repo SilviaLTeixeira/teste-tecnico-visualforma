@@ -7,7 +7,7 @@ const Events = (props) => {
     return ( 
         <div>
             <div className={props.classNameContainer}>
-                <img id= "date_events" src={props.ImageEvents} alt="eventos"/>
+                <img className={props.classNameEvents} src={props.ImageEvents} alt="eventos"/>
             </div>
             <div className={props.classNameContainer2}>
                 <h1 className={props.classNameColor}>{props.titulo}</h1>

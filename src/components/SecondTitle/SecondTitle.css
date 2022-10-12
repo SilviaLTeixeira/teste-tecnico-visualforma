@@ -14,3 +14,11 @@
     color: #000000;
     margin-left: 950px;
 }
+@media(max-width:760px){
+    .second_title1{
+        margin-left: 22%;
+    }
+    .second_title2{
+        margin-left: 22%;
+    }
+}

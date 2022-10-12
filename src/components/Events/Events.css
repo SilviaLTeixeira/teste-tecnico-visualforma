@@ -6,24 +6,26 @@
 }
 .container_events1{
     background-color:#246970;
-    margin-left: 15.5%;
+    margin-left: 7%;
     margin-top: 2%;
 }
 .container_events2{
     background-color: #69A391;
     margin-top: -155px;
+    margin-left: 40%;
 }
 .container_events3{
     background-color: #FDAC1D;
     margin-top: 2%;
-    margin-left: 15.5%;
+    margin-left: 7%;
     
 }
 .container_events4{
     background-color: #21878F;
     margin-top: -155px;
+    margin-left: 40%;
 }
-#date_events{
+.container_image1,.container_image2,.container_image3,.container_image4{
     margin-left: 15px;
     margin-top: 20px;
 }
@@ -34,11 +36,11 @@
     
 }
 .container_text,.container_text3{
-    margin-left: 23.8%;
+    margin-left: 17.5%;
     margin-top: -155px;
 }
 .container_text2,.container_text4{
-    margin-left: 54.2%;
+    margin-left: 50.5%;
     margin-top: -155.5px;
 }
 .text_events{
@@ -75,4 +77,20 @@
     font-size: 12px;
     font-weight: 500;
     margin-left: 2%;
+}
+@media(max-width:760px){
+    .titulo_categoria4,.container_text4,.container_events4,.container_image4{
+        display: none;
+    }
+    .container_events1,.container_events2,.container_events3{
+        margin-left: 18%;
+       
+    }
+    .container_text,.container_text2,.container_text3{
+        margin-left: 50%;
+    }
+    .container_events2{
+        margin-top: 2%;
+        
+    }
 }

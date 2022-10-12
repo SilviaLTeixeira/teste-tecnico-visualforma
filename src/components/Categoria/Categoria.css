@@ -9,3 +9,8 @@
 .categoria_media2{
     margin-left: 152px;
 }
+@media(max-width:900px){
+    .categoria_escura{
+        display:none;
+    }
+}

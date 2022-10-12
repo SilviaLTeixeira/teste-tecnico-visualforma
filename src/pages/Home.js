@@ -97,6 +97,7 @@ function Home() {
           classNameSecond="second_title2"
       ></SecondTitle>
          <Events 
+          classNameEvents="container_image1"
           classNameContainer="container_events1"
           ImageEvents={Domingo}
           classNameContainer2="container_text"
@@ -104,6 +105,7 @@ function Home() {
           classNameColor="titulo_categoria1"
           ></Events>
           <Events 
+          classNameEvents="container_image2"
           classNameContainer="container_events2"
           ImageEvents={Domingo}
           classNameContainer2="container_text2"
@@ -111,6 +113,7 @@ function Home() {
           classNameColor="titulo_categoria2"
           ></Events>
            <Events 
+           classNameEvents="container_image3"
           classNameContainer="container_events3"
           ImageEvents={Segunda}
           classNameContainer2="container_text3"
@@ -118,6 +121,7 @@ function Home() {
           classNameColor="titulo_categoria3"
           ></Events>
            <Events 
+           classNameEvents="container_image4"
           classNameContainer="container_events4"
           ImageEvents={Dezembro}
           classNameContainer2="container_text4"
