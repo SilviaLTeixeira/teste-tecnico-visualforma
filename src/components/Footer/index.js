@@ -26,6 +26,9 @@ const Footer = () => {
                 <h3 id = "municipio_h3">MUNICÍPIO</h3>
                 <h3 id = "autarquia_h3">AUTARQUIA360</h3>
                 <h3 id = "atividade_h3">ATIVIDADE MUNICIPAL</h3>
+                <h3 id = "servicos_h3">SERVIÇOS ON-LINE</h3>
+                <h3 id = "contactos_h3">CONTACTOS</h3>
+                <h3 id = "contate_h3">CONTACTE-NOS</h3>
                 <h3 id = "subs_h3">SUBSCREVA A NOSSA NEWSLETTER</h3>
                 <img id = "mensagem_1" src= {Mensagem1} alt= "Mensagem1"/>
                 <img id = "mensagem_2" src= {Mensagem2} alt= "Mensagem2"/>
